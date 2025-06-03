@@ -1,0 +1,39 @@
+dataset_config:
+  channels:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  - 13
+  - 14
+  normalize: false
+  num_channels: 14
+  num_classes: 1
+logging_config:
+  wandb_entity: Silvamillion
+  wandb_project: Land4Sense
+model_config:
+  encoder_weights: imagenet
+  in_channels: 14
+  model_type: densenet121
+  num_classes: 1
+  wce_weight: 0.5
+train_config:
+  batch_size: 16
+  checkpoint_path: checkpoints
+  dataset_path: TrainData
+  device: cuda:0
+  experiment_name: densenet121
+  lr: 0.001
+  num_epochs: 100
+  save_config: true
+  seed: 42
+  train_val_split: 0.8
