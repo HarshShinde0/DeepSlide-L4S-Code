@@ -1,47 +1,49 @@
 {
   "@context": {
-    "@language": "en",
-    "@vocab": "https://schema.org/",
-    "citeAs": "cr:citeAs",
-    "column": "cr:column",
-    "conformsTo": "dct:conformsTo",
-    "cr": "http://mlcommons.org/croissant/",
-    "data": {
-      "@id": "cr:data",
-      "@type": "@json"
-    },
-    "dataBiases": "cr:dataBiases",
-    "dataCollection": "cr:dataCollection",
-    "dataType": {
-      "@id": "cr:dataType",
-      "@type": "@vocab"
-    },
-    "dct": "http://purl.org/dc/terms/",
-    "extract": "cr:extract",
-    "field": "cr:field",
-    "fileProperty": "cr:fileProperty",
-    "fileObject": "cr:fileObject",
-    "fileSet": "cr:fileSet",
-    "format": "cr:format",
-    "includes": "cr:includes",
-    "isLiveDataset": "cr:isLiveDataset",
-    "jsonPath": "cr:jsonPath",
-    "key": "cr:key",
-    "md5": "cr:md5",
-    "parentField": "cr:parentField",
-    "path": "cr:path",
-    "personalSensitiveInformation": "cr:personalSensitiveInformation",
-    "recordSet": "cr:recordSet",
-    "references": "cr:references",
-    "regex": "cr:regex",
-    "repeated": "cr:repeated",
-    "replace": "cr:replace",
-    "sc": "https://schema.org/",
-    "separator": "cr:separator",
-    "source": "cr:source",
-    "subField": "cr:subField",
-    "transform": "cr:transform"
+  "@language": "en",
+  "@vocab": "https://schema.org/",
+  "citeAs": "cr:citeAs",
+  "column": "cr:column",
+  "conformsTo": "dct:conformsTo",
+  "cr": "http://mlcommons.org/croissant/",
+  "data": {
+    "@id": "cr:data",
+    "@type": "@json"
   },
+  "dataBiases": "cr:dataBiases",
+  "dataCollection": "cr:dataCollection",
+  "dataType": {
+    "@id": "cr:dataType",
+    "@type": "@vocab"
+  },
+  "dct": "http://purl.org/dc/terms/",
+  "extract": "cr:extract",
+  "field": "cr:field",
+  "fileProperty": "cr:fileProperty",
+  "fileObject": "cr:fileObject",
+  "fileSet": "cr:fileSet",
+  "format": "cr:format",
+  "includes": "cr:includes",
+  "isLiveDataset": "cr:isLiveDataset",
+  "jsonPath": "cr:jsonPath",
+  "key": "cr:key",
+  "md5": "cr:md5",
+  "parentField": "cr:parentField",
+  "path": "cr:path",
+  "personalSensitiveInformation": "cr:personalSensitiveInformation",
+  "recordSet": "cr:recordSet",
+  "references": "cr:references",
+  "regex": "cr:regex",
+  "repeated": "cr:repeated",
+  "replace": "cr:replace",
+  "sc": "https://schema.org/",
+  "separator": "cr:separator",
+  "source": "cr:source",
+  "subField": "cr:subField",
+  "transform": "cr:transform",
+  "rai": "cr:rai",
+  "examples": "cr:examples"
+},
   "@type": "sc:Dataset",
   "distribution": [
     {
@@ -51,7 +53,7 @@
       "description": "The Hugging Face git repository.",
       "contentUrl": "https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars/tree/refs%2Fconvert%2Fparquet",
       "encodingFormat": "git+https",
-      "sha256": "https://github.com/mlcommons/croissant/issues/80"
+      "sha256": "dummy_sha256_checksum"
     },
     {
       "@type": "cr:FileSet",
@@ -188,5 +190,8 @@
   ],
   "license": "https://choosealicense.com/licenses/cc-by-4.0/",
   "sameAs": "",
-  "url": "https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars"
+  "url": "https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars",
+  "citeAs": "IBM-NASA Prithvi Models Family (2024). HLS Burn Scars Dataset. https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars",
+  "datePublished": "2024-05-01",
+  "version": "1.0.0"
 }
