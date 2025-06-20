@@ -62,6 +62,7 @@
       "description": "The Hugging Face git repository.",
       "contentUrl": "https://huggingface.co/datasets/ibm-nasa-geospatial/hls_burn_scars/tree/refs%2Fconvert%2Fparquet",
       "encodingFormat": "git+https"
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef"
     },
     {
       "@type": "cr:FileSet",
