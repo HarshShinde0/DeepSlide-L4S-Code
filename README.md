@@ -1,4 +1,4 @@
-#DeepSlide: Landslide Detection and Mapping Using Deep Learning Across Multi-Source Satellite Data and Geographic Regions
+# DeepSlide: Landslide Detection and Mapping Using Deep Learning Across Multi-Source Satellite Data and Geographic Regions
 
 Landslide4sense Dataset:
 
@@ -14,7 +14,7 @@ Paper - https://dx.doi.org/10.2139/ssrn.5225437
 
 ## 📄 Citation
 
-If you use **DeepSlide-L4S** or reference our work in your research, please cite our paper:
+If you use **DeepSlide-L4S-Code** or reference our work in your research, please cite our paper:
 
 > Harsh Shinde, et al. *Landslide Detection and Mapping Using Deep Learning Across Multi-Source Satellite Data and Geographic Regions*, SSRN, 2024.  
 > DOI: [10.2139/ssrn.5225437](https://dx.doi.org/10.2139/ssrn.5225437)
