@@ -73,7 +73,7 @@ model_descriptions = {
 }
 
 # Streamlit app
-st.set_page_config(page_title="Landslide Detection", layout="wide")
+st.set_page_config(page_title="DeepSlide: Landslide Detection", layout="wide")
 
 st.title("Landslide Detection")
 st.markdown("""
