@@ -58,7 +58,7 @@ config = yaml.safe_load(config)
 # Model descriptions
 model_descriptions = {
     "MobileNetV2": {"path": "Streamlit-Frontend/mobilenetv2.pth", "type": "mobilenet_v2", "description": "MobileNetV2 is a lightweight deep learning model for image classification and segmentation."},
-    "VGG16": {"path": "DeepSlide-L4S-Code/Streamlit-Frontend/vgg16.pth", "type": "vgg16", "description": "VGG16 is a popular deep learning model known for its simplicity and depth."},
+    "VGG16": {"path": "Streamlit-Frontend/vgg16.pth", "type": "vgg16", "description": "VGG16 is a popular deep learning model known for its simplicity and depth."},
     "ResNet34": {"path": "Streamlit-Frontend/resnet34.pth", "type": "resnet34", "description": "ResNet34 is a deep residual network that helps in training very deep networks."},
     "EfficientNetB0": {"path": "Streamlit-Frontend/effucientnetb0.pth", "type": "efficientnet_b0", "description": "EfficientNetB0 is part of the EfficientNet family, known for its efficiency and performance."},
     "MiT-B1": {"path": "Streamlit-Frontend/mitb1.pth", "type": "mit_b1", "description": "MiT-B1 is a transformer-based model designed for segmentation tasks."},
