@@ -75,7 +75,7 @@ model_descriptions = {
 # Streamlit app
 st.set_page_config(page_title="DeepSlide: Landslide Detection", layout="wide")
 
-st.title("Landslide Detection")
+st.title("DeepSlide: Landslide Detection")
 st.markdown("""
 ## Instructions
 1. Select a model from the sidebar or choose to run all models.
