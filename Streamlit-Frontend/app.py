@@ -37,7 +37,7 @@ dataset_config:
   normalize: False
 
 train_config:
-  dataset_path: "/kaggle/input/landslide4sense/TrainData"
+  dataset_path: ""
   checkpoint_path: "checkpoints"
   seed: 42
   train_val_split: 0.8
