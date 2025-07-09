@@ -1,4 +1,4 @@
-# DeepSlide-L4S-Code
+#DeepSlide: Landslide Detection and Mapping Using Deep Learning Across Multi-Source Satellite Data and Geographic Regions
 
 Landslide4sense Dataset:
 
