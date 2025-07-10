@@ -5,13 +5,13 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy requirements first (to leverage Docker cache)
-COPY requirements.txt .
+COPY Streamlit-Frontend/requirements.txt .
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy all source files into container
-COPY . .
+# Copy all source files and model weights into container
+COPY Streamlit-Frontend/ .
 
 # Expose default Streamlit port
 EXPOSE 8501
