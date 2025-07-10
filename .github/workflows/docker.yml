@@ -25,6 +25,7 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: ./Streamlit-Frontend
+          context: .
+          file: Streamlit-Frontend/Dockerfile
           push: true
           tags: harshshinde/deepslide-app:latest
