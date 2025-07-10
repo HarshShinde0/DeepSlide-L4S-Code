@@ -1,0 +1,36 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+      - name: Clone HF Space repo
+        run: |
+          git clone https://$HF_USERNAME:$HF_TOKEN@huggingface.co/spaces/$HF_USERNAME/DeepSlide hf-space
+
+      - name: Sync files
+        run: |
+          rsync -av --delete Streamlit-Frontend/ hf-space/
+
+      - name: Commit and push
+        run: |
+          cd hf-space
+          git add .
+          git commit -m "Deploy from GitHub Actions" || echo "No changes to commit"
+          git push
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
